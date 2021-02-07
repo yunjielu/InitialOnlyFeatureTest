@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1BE66DDC-4FBC-B9BE-EDDF-DFAA48339985}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "InitialOnlyFeature",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

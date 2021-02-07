@@ -1,1 +1,1 @@
-# InitialOnlyFeatureTest
+# InitialOnlyFeature
