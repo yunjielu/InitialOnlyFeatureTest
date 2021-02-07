@@ -228,7 +228,7 @@ void AInitialOnlyFeatureCharacter::FetchInitialOnlyData()
 	USpatialNetDriver *NetDriver = Cast<USpatialNetDriver>(GetNetDriver());
 	Worker_EntityId EntityId = USpatialStatics::GetActorEntityId(this);
 	USpatialActorChannel* Channel = NetDriver->GetActorChannelByEntityId(EntityId);
-	Channel->TryFetchInitialOnlyData(EntityId);
+	// Channel->TryFetchInitialOnlyData(EntityId);
 
 	UE_LOG(LogTemp, Warning, TEXT("%s - after Var1:%d, Var2: %d"), *FString(__FUNCTION__), ActorVar1, ActorVar2);
 }
